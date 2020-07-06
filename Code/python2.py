@@ -57,7 +57,7 @@ input2 = ''
 def two(input2):
     if input2 % 1 == 0 and input2 % input2 == 0:
         return True
-    else:
+    elif input2 % 1 != 0 or input2 % input2 != 0:
         return False
 
 
