@@ -1,12 +1,12 @@
 import pytest
 from Code import python2
 
-# def test_one():
-#     assert python2.one("The") == "TTThhheee"
-#     assert python2.one("AAbb") == "AAAAAAbbbbbb"
-#     assert python2.one("Hi-There") == "HHHiii---TTThhheeerrreee"
-#     assert python2.one("") == ""
-#     assert python2.one("IoT") == "IIIoooTTT"
+def test_one():
+    assert python2.one("The") == "TTThhheee"
+    assert python2.one("AAbb") == "AAAAAAbbbbbb"
+    assert python2.one("Hi-There") == "HHHiii---TTThhheeerrreee"
+    assert python2.one("") == ""
+    assert python2.one("IoT") == "IIIoooTTT"
 
 # def test_two():
 #     assert python2.two(3) == True
@@ -37,7 +37,7 @@ from Code import python2
 #             if i % 2 != 0 or 100 > i or i > 200:
 #                 return False
 #         return True
-# #
+#
 # def test_five():
 #     assert split(python2.five()) == True
 #     assert split(python2.five()) == True
@@ -45,12 +45,12 @@ from Code import python2
 #     assert split(python2.five()) == True
 #     assert split(python2.five()) == True
 
-def test_six():
-    assert python2.six("ilovepy") == True
-    assert python2.six("welovepy") == True
-    assert python2.six("welovepyforreal") == False
-    assert python2.six("pyiscool") == False
-    assert python2.six("hurrayforpY") == True
+# def test_six():
+#     assert python2.six("ilovepy") == True
+#     assert python2.six("welovepy") == True
+#     assert python2.six("welovepyforreal") == False
+#     assert python2.six("pyiscool") == False
+#     assert python2.six("hurrayforpY") == True
 
 # def test_seven():
 #     assert python2.seven(2,4,6) == True

@@ -31,8 +31,10 @@ input1 = ""
 
 
 def one(input1):
-    for char in input1[0::1]:
-        return char * 3
+    word = ''
+    for char in input1:
+        word += char * 3
+    return word
 
 
 # <QUESTION 2>
@@ -126,8 +128,8 @@ num1 = []
 
 
 def five():
-    for i in range(5):
-        num1.append(random.randrange(100, 200, 2))
+    for x in range(5):
+        num1.append(random.randrange(100, 201, 2))
     return num1
 
 
