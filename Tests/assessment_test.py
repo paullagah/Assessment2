@@ -29,29 +29,29 @@ from Code import python2
 #     assert python2.four("return","letter") == "rleettutrenr"
 #     assert python2.four("Cat","Dog") == "CDaotg"
 #
-def split(num1):
-    if len(num1) != 5:
-        return False
-    else:
-        for i in num1:
-            if i % 2 != 0 or 100 > i or i > 200:
-                return False
-        return True
-#
-def test_five():
-    assert split(python2.five()) == True
-    assert split(python2.five()) == True
-    assert split(python2.five()) == True
-    assert split(python2.five()) == True
-    assert split(python2.five()) == True
-#
-# def test_six():
-#     assert python2.six("ilovepy") == True
-#     assert python2.six("welovepy") == True
-#     assert python2.six("welovepyforreal") == False
-#     assert python2.six("pyiscool") == False
-#     assert python2.six("hurrayforpY") == True
-#
+# def split(num1):
+#     if len(num1) != 5:
+#         return False
+#     else:
+#         for i in num1:
+#             if i % 2 != 0 or 100 > i or i > 200:
+#                 return False
+#         return True
+# #
+# def test_five():
+#     assert split(python2.five()) == True
+#     assert split(python2.five()) == True
+#     assert split(python2.five()) == True
+#     assert split(python2.five()) == True
+#     assert split(python2.five()) == True
+
+def test_six():
+    assert python2.six("ilovepy") == True
+    assert python2.six("welovepy") == True
+    assert python2.six("welovepyforreal") == False
+    assert python2.six("pyiscool") == False
+    assert python2.six("hurrayforpY") == True
+
 # def test_seven():
 #     assert python2.seven(2,4,6) == True
 #     assert python2.seven(4,6,2) == True

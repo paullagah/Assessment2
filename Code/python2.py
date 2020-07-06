@@ -146,9 +146,15 @@ def five():
 
 # <HINT>
 # There are no hints for this question.
+input3 = ""
 
-def six(input):
-    return False
+
+def six(input3):
+    x = input3.lower()
+    if x.endswith("py"):
+        return True
+    else:
+        return False
 
 
 # <QUESTION 7>
